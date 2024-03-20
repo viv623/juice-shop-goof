@@ -37,7 +37,7 @@ metadata:
     endoflife.date/products: nodejs
 spec:
   type: service
-  owner: group:snyk-cs-goof-or/engineering
+  owner: group:snyk-cs-goof-org/cs-goof-back-end
   lifecycle: production
   system: sample-system
   providesApis:
@@ -56,7 +56,7 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: group:snyk-cs-goof-or/marketing
+  owner: group:snyk-cs-goof-org/cs-goof-back-end
   system: sample-system
   subcomponentOf: juice-shop-goof
 
@@ -72,7 +72,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:snyk-cs-goof/engineering
+  owner: group:snyk-cs-goof/cs-goof-back-end
   system: sample-system
   definition:
     $text: https://github.com/snyk-cs-goof/juice-shop-goof/blob/main/api-spec.yaml
@@ -89,7 +89,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:snyk-cs-goof-or/engineering
+  owner: group:snyk-cs-goof-org/cs-goof-back-end
   system: sample-system
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
@@ -112,7 +112,7 @@ metadata:
   name: sample-domain
   description: Sample domain which has stuff for demoing.
 spec:
-  owner: group:snyk-cs-goof/engineering
+  owner: group:snyk-cs-goof/cs-goof-back-end
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -122,5 +122,5 @@ metadata:
   name: sample-system
   description: Sample things which are good for demoing.
 spec:
-  owner: group:snyk-cs-goof/engineering
+  owner: group:snyk-cs-goof/cs-goof-back-end
   domain: sample-domain
