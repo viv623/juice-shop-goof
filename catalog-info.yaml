@@ -37,7 +37,7 @@ metadata:
     endoflife.date/products: nodejs
 spec:
   type: service
-  owner: group:roadiehq/engineering
+  owner: group:snyk-cs-goof-or/engineering
   lifecycle: production
   system: sample-system
   providesApis:
@@ -56,7 +56,7 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: group:roadiehq/marketing
+  owner: group:snyk-cs-goof-or/marketing
   system: sample-system
   subcomponentOf: juice-shop-goof
 
@@ -89,7 +89,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: group:roadiehq/engineering
+  owner: group:snyk-cs-goof-or/engineering
   system: sample-system
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
