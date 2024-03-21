@@ -1,0 +1,2 @@
+LOG: 2024-01-02 00:03 Failed to send card 4916953874755064 to processor
+LOG: 2024-01-02 00:02 critical failure - postgresql://booking_service:U70Nx673g!h93w@cloud.google.com:5432/bookings
