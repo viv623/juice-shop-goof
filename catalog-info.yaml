@@ -39,7 +39,7 @@ spec:
   type: service
   owner: group:snyk-cs-goof-org/cs-goof-back-end
   lifecycle: production
-  system: sample-system
+  system: JuiceShop-Payment-App
   providesApis:
     - juice-shop-goof
   dependsOn:
@@ -57,7 +57,7 @@ spec:
   type: library
   lifecycle: production
   owner: group:snyk-cs-goof-org/cs-goof-back-end
-  system: sample-system
+  system: JuiceShop-Payment-App
   subcomponentOf: juice-shop-goof
 
 ---
@@ -73,7 +73,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:snyk-cs-goof/cs-goof-back-end
-  system: JuiceShop Payment App
+  system: JuiceShop-Payment-App
   definition:
     $text: https://github.com/snyk-cs-goof/juice-shop-goof/blob/main/api-spec.yaml
 
@@ -90,7 +90,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:snyk-cs-goof-org/cs-goof-back-end
-  system: sample-system
+  system: JuiceShop-Payment-App
   definition:
     $text: https://petstore.swagger.io/v2/swagger.json
 
@@ -103,7 +103,7 @@ metadata:
 spec:
   type: s3-bucket
   owner: team-alpha
-  system: sample-system
+  system: JuiceShop-Payment-App
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -118,9 +118,9 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  title: Sample System
-  name: sample-system
-  description: Sample things which are good for demoing.
+  title: JuiceShop Payment App
+  name: JuiceShop-Payment-App
+  description: JS Payment App
 spec:
   owner: group:snyk-cs-goof/cs-goof-back-end
   domain: sample-domain
