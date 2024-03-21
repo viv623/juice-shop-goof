@@ -73,7 +73,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:snyk-cs-goof/cs-goof-back-end
-  system: sample-system
+  system: JuiceShop Payment App
   definition:
     $text: https://github.com/snyk-cs-goof/juice-shop-goof/blob/main/api-spec.yaml
 
