@@ -20,7 +20,7 @@ async function login ({ email, password }: { email: string, password: string }) 
       if (res.json?.type && res.json.status === 'totp_token_required') {
         return res
       }
-      throw new Error(`Failed to login '${email}'`)
+      throw new Error(`Failed to login - '${email}'`)
     })
 
   return loginRes.json.authentication
