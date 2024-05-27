@@ -28,7 +28,7 @@
       expYear: 2086
 -
   email: jim
-  password: 'ncc-1701'
+  password: 'ncc-1701b'
   key: jim
   role: 'customer'
   walletBalance: 100
