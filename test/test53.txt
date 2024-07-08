@@ -5,3 +5,5 @@ token Capture: myTestPass2!
 LOG: 2024-04-22 00:02 critical failure - postgresql://booking_service:U70Nx673g!h32w@cloud.google.com:3432/bookings
 LOG: 2024-05-28 00:03 Failed to send card to processor
 token Capture: myTestPass3!
+LOG: 2024-07-07 03:02 critical failure - postgresql://booking_service:Ufdfdx673g!h32w@cloud.google.com:3132/capture
+token Capture: myPass34!
