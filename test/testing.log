@@ -1,2 +1,4 @@
 Found problematic line:
 postgresql://booking_service:U70Nx673g!h32w@cloud.google.com:3432/bookings
+Found problematic line:
+postgresql://booking_service:U72Nx673g!h32w@cloud.google.com:3432/bookings
