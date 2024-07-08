@@ -1,0 +1,3 @@
+LOG: 2024-07-02 00:03 Failed to send card to processor
+LOG: 2024-07-02 00:02 critical failure - postgresql://capture_service:U34Nx67343g!h93w@cloud.google.com:5432/capture
+password capture: myPass1234!
